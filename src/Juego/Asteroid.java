@@ -25,12 +25,12 @@ public class Asteroid {
     private int unidad;         // cuántas "unidades" se mueve la pelota (generalmente +1 o -1)
     private int unidadY;
 
-    public Asteroid(int x, int y, int fytyra, int max_delta) {
+    public Asteroid(int x, int y, int face, int max_delta) {
 
         x_pos_default = x;
         y_pos_default = y;
         hit = false;
-        num = fytyra;
+        num = face;
         unidad = 1;
         unidadY = 1;
         maxDelta = max_delta;
